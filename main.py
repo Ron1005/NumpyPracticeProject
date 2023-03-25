@@ -27,7 +27,7 @@ arr = np.array([[1,2,3,4,5,6,7],[8,9,10,11,12,13,14]])
 
 #Getting elements in numpy array
 print(arr[0][0]) # Get element at [i,j] position
-print(arr[0,:,]) # Get specific row [i,:]
+print(arr[0,:]) # Get specific row [i,:]
 print(arr[:,1]) # Get speciifc column [:,j]
 print(arr.view())
 
